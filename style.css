@@ -12,7 +12,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #ffe5e5;
+    background-color: #cfd1ff;
 }
 
 .container {
@@ -38,7 +38,7 @@ body {
 .btn button {
     text-decoration: none;
     color: black;
-    background: #fff;
+    background: #ffffff;
     padding: 10px 25px;
     border-radius: 8px;
     box-shadow: 0.5rem 1rem 3rem hsl(0, 0, 0,0.3);
@@ -53,4 +53,13 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    
+}
+
+
+.tenor-gif-embed {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Sombra alrededor del GIF */
+    border-radius: 15px; /* Bordes redondeados */
+    overflow: hidden;
+    margin-bottom: 30px;
 }
